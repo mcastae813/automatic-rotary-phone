@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Teacher Incidents\",\"%DataSourceValue.AFD%\":\"[@'Teacher Incidents']\",\"%SortFieldName.AFD%\":\"\\\"cr224_teacherincident1\\\"\",\"%FilterFieldName.AFD%\":\"cr224_teacherincident1\",\"%PrimaryNameField.AFD%\":\"cr224_teacherincident1\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Teacher Incident (cr224_teacherincident1)'\",\"%SearchFieldName.AFD%\":\"cr224_teacherincident1\",\"%StartsWithFieldName.AFD%\":\"cr224_teacherincident1\",\"%DeleteConfirmFieldName.AFD%\":\"cr224_teacherincident1\",\"%SortDescending.AFD%\":\"SortDescending6\",\"%CopilotSinglePageScreen.ID%\":\"'Teacher Incidents screen'\",\"%BrowseContainer.ID%\":\"BrowseGallery6\",\"%DetailEditContainer.ID%\":\"EditForm6\"}"
+}

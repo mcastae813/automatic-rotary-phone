@@ -1,0 +1,35 @@
+{
+  "name": "Admin Incident Monitoring",
+  "description": "An app for school administrators to monitor incident reports, analyze trends, and ensure data privacy.",
+  "typesOfUsers": [
+    "School Administrator"
+  ],
+  "tableSchemaNames": [
+    "cr224_Incident1",
+    "cr224_SchoolAdministrator"
+  ],
+  "userStories": [
+    {
+      "id": "us12",
+      "rawDescription": "As a school administrator, I need to monitor incident reports so that I can support teachers in managing student behavior.",
+      "description": "Monitor incident reports so that I can support teachers in managing student behavior.",
+      "priority": "P",
+      "userType": "School Administrator"
+    },
+    {
+      "id": "us13",
+      "rawDescription": "As a school administrator, I need to analyze trends in incidents so that I can implement school-wide improvements.",
+      "description": "Analyze trends in incidents so that I can implement school-wide improvements.",
+      "priority": "P",
+      "userType": "School Administrator"
+    },
+    {
+      "id": "us14",
+      "rawDescription": "As a school administrator, I need to ensure data privacy and security so that student information is protected.",
+      "description": "Ensure data privacy and security so that student information is protected.",
+      "priority": "B",
+      "userType": "School Administrator"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,14 @@
+msdyn_planartifact:
+  '@msdyn_planartifactid': 5b8d6017-c9f4-ef11-9340-7c1e525bbe39
+  iscustomizable: 1
+  msdyn_artifactmetadataschemaversion: 1.0
+  msdyn_artifactstatus: 419550000
+  msdyn_description: An app for parents to communicate with teachers about incidents and discuss resolutions.
+  msdyn_name: Parent-Teacher Communication
+  msdyn_proposal:
+    '@mimetype': application/octet-stream
+    '#text': Parent-Teacher Communication
+  msdyn_proposalschemaversion: 1.0
+  msdyn_type: PowerAppsCanvasApp
+  statecode: 0
+  statuscode: 1

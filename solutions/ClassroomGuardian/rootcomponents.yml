@@ -1,0 +1,35 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': cr224_incident
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr224_parent
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr224_student
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr224_studentincident
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr224_teacher
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr224_teacherincident
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{8131387f-61f6-ef11-9341-7c1e52168ba1}'
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': dev_BehaviorTrendbc40bee2
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': dev_IncidentFbe6b5177
+    '@behavior': 0
+  - '@type': 80
+    '@schemaName': dev_BehaviorTrend94627d24
+    '@behavior': 0
+  - '@type': 300
+    '@schemaName': dev_incidentmanagementapp_dad88
+    '@behavior': 0

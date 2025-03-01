@@ -1,0 +1,14 @@
+msdyn_planartifact:
+  '@msdyn_planartifactid': c53e5ffc-49f6-ef11-9341-002248260c59
+  iscustomizable: 1
+  msdyn_artifactmetadataschemaversion: 1.0
+  msdyn_artifactstatus: 419550000
+  msdyn_description: A flow to notify teachers of new incidents so they can address them promptly.
+  msdyn_name: Incident Notification Flow
+  msdyn_proposal:
+    '@mimetype': application/octet-stream
+    '#text': Incident Notification Flow
+  msdyn_proposalschemaversion: 1.0
+  msdyn_type: PowerAutomateFlow
+  statecode: 0
+  statuscode: 1

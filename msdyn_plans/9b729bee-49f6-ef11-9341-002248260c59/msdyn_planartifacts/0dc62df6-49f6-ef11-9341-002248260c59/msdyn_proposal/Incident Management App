@@ -1,0 +1,53 @@
+{
+  "name": "Incident Management App",
+  "description": "An app for teachers to log incidents, classify them, notify parents, and track follow-up actions.",
+  "typesOfUsers": [
+    "Teacher"
+  ],
+  "tableSchemaNames": [
+    "cr224_Teacher",
+    "cr224_Student",
+    "cr224_Parent",
+    "cr224_Incident",
+    "cr224_StudentIncident",
+    "cr224_TeacherIncident"
+  ],
+  "userStories": [
+    {
+      "id": "us01",
+      "rawDescription": "As a Teacher, I need to log incidents so that I can keep a record of student conflicts.",
+      "description": "Log incidents so that I can keep a record of student conflicts.",
+      "priority": "B",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us02",
+      "rawDescription": "As a Teacher, I need to classify incidents automatically so that I can save time and ensure consistency.",
+      "description": "Classify incidents automatically so that I can save time and ensure consistency.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us03",
+      "rawDescription": "As a Teacher, I need to notify parents about incidents so that they are informed promptly.",
+      "description": "Notify parents about incidents so that they are informed promptly.",
+      "priority": "B",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us07",
+      "rawDescription": "As a Teacher, I need to assign follow-up actions for incidents so that they are resolved effectively.",
+      "description": "Assign follow-up actions for incidents so that they are resolved effectively.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us08",
+      "rawDescription": "As a Teacher, I need to track the status of follow-up actions so that I can ensure they are completed.",
+      "description": "Track the status of follow-up actions so that I can ensure they are completed.",
+      "priority": "P",
+      "userType": "Teacher"
+    }
+  ],
+  "version": 1
+}

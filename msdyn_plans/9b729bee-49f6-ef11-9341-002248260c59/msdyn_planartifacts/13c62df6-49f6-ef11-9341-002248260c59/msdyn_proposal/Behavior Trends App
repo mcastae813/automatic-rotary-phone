@@ -1,0 +1,36 @@
+{
+  "name": "Behavior Trends App",
+  "description": "An app for teachers to identify trends in student behavior, view incident history, and generate reports.",
+  "typesOfUsers": [
+    "Teacher"
+  ],
+  "tableSchemaNames": [
+    "cr224_Student",
+    "cr224_Incident",
+    "cr224_StudentIncident"
+  ],
+  "userStories": [
+    {
+      "id": "us04",
+      "rawDescription": "As a Teacher, I need to identify trends in student behavior so that I can address recurring issues.",
+      "description": "Identify trends in student behavior so that I can address recurring issues.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us05",
+      "rawDescription": "As a Teacher, I need to view incident history for each student so that I can understand their behavior patterns.",
+      "description": "View incident history for each student so that I can understand their behavior patterns.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us06",
+      "rawDescription": "As a Teacher, I need to generate reports on incidents so that I can share them with school administration.",
+      "description": "Generate reports on incidents so that I can share them with school administration.",
+      "priority": "P",
+      "userType": "Teacher"
+    }
+  ],
+  "version": 1
+}

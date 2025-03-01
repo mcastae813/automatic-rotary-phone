@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{4790aef7-e42c-45f0-9ef4-0e7f4c57cb4d}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr224_teacherincident1
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr224_teacherincidentid
+        cell:
+        - '@name': cr224_teacherincident1
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_teacherincident
+        attribute:
+        - '@name': cr224_teacherincidentid
+        - '@name': cr224_teacherincident1
+        - '@name': createdon
+        order:
+          '@attribute': cr224_teacherincident1
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Teacher Incident Advanced Find View
+      '@languagecode': 1033

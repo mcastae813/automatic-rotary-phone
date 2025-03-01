@@ -1,0 +1,29 @@
+{
+  "name": "Parent Incident Notification",
+  "description": "A flow to notify parents immediately about incidents involving their child via email.",
+  "typesOfUsers": [
+    "Parent"
+  ],
+  "tableSchemaNames": [
+    "cr224_Parent",
+    "cr224_Incident",
+    "cr224_IncidentNotification"
+  ],
+  "userStories": [
+    {
+      "id": "us03",
+      "rawDescription": "As a teacher, I need to notify parents about incidents immediately so that they are informed promptly.",
+      "description": "Notify parents about incidents immediately so that they are informed promptly.",
+      "priority": "B",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us09",
+      "rawDescription": "As a parent, I need to receive notifications about my child's incidents so that I am aware of their behavior.",
+      "description": "Receive notifications about my child's incidents so that I am aware of their behavior.",
+      "priority": "B",
+      "userType": "Parent"
+    }
+  ],
+  "version": 1
+}

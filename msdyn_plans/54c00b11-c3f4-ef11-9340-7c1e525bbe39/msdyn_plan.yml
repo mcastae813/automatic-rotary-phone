@@ -1,0 +1,12 @@
+msdyn_plan:
+  '@msdyn_planid': 54c00b11-c3f4-ef11-9340-7c1e525bbe39
+  iscustomizable: 1
+  msdyn_content:
+    '@mimetype': application/octet-stream
+    '#text': Incident Management System
+  msdyn_contentschemaversion: ' 1.0'
+  msdyn_description: This solution will allow teachers to efficiently log, classify, and resolve student incidents, while keeping parents informed and identifying behavior trends.
+  msdyn_name: Incident Management System
+  msdyn_prompt: As a teacher, I struggle to [describe the problem, e.g., track and resolve student conflicts efficiently]. Currently, I [current process, e.g., manually log incidents in spreadsheets, email parents individually]. This leads to [pain points, e.g., delayed communication, inconsistent follow-up, missed patterns in behavior]. I need a way to [desired outcome, e.g., automatically classify incidents, notify parents, and identify trends to improve student behavior].
+  statecode: 0
+  statuscode: 1

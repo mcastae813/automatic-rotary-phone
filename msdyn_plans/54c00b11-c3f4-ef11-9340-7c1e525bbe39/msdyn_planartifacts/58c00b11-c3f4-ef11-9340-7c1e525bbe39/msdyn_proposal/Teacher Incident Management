@@ -1,0 +1,64 @@
+{
+  "name": "Teacher Incident Management",
+  "description": "An app for teachers to log, classify, and track student incidents, set reminders, and generate reports.",
+  "typesOfUsers": [
+    "Teacher"
+  ],
+  "tableSchemaNames": [
+    "cr224_Student1",
+    "cr224_Incident1",
+    "cr224_Teacher1"
+  ],
+  "userStories": [
+    {
+      "id": "us01",
+      "rawDescription": "As a teacher, I need to log student incidents quickly so that I can keep accurate records.",
+      "description": "Log student incidents quickly so that I can keep accurate records.",
+      "priority": "B",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us02",
+      "rawDescription": "As a teacher, I need to classify incidents automatically so that I can save time and ensure consistency.",
+      "description": "Classify incidents automatically so that I can save time and ensure consistency.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us04",
+      "rawDescription": "As a teacher, I need to track the resolution of incidents so that I can ensure follow-up actions are completed.",
+      "description": "Track the resolution of incidents so that I can ensure follow-up actions are completed.",
+      "priority": "B",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us05",
+      "rawDescription": "As a teacher, I need to identify patterns in student behavior so that I can address underlying issues.",
+      "description": "Identify patterns in student behavior so that I can address underlying issues.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us06",
+      "rawDescription": "As a teacher, I need to generate reports on incidents so that I can share them with school administrators.",
+      "description": "Generate reports on incidents so that I can share them with school administrators.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us07",
+      "rawDescription": "As a teacher, I need to access incident records from any device so that I can update information on the go.",
+      "description": "Access incident records from any device so that I can update information on the go.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us08",
+      "rawDescription": "As a teacher, I need to set reminders for follow-up actions so that I do not miss any important steps.",
+      "description": "Set reminders for follow-up actions so that I do not miss any important steps.",
+      "priority": "P",
+      "userType": "Teacher"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Parent-Teacher Communication",
+  "description": "An app for parents to communicate with teachers about incidents and discuss resolutions.",
+  "typesOfUsers": [
+    "Parent",
+    "Teacher"
+  ],
+  "tableSchemaNames": [
+    "cr224_Incident1",
+    "cr224_Teacher1",
+    "cr224_Parent1"
+  ],
+  "userStories": [
+    {
+      "id": "us11",
+      "rawDescription": "As a parent, I need to communicate with the teacher about incidents so that I can discuss and resolve issues.",
+      "description": "Communicate with the teacher about incidents so that I can discuss and resolve issues.",
+      "priority": "P",
+      "userType": "Parent"
+    }
+  ],
+  "version": 1
+}

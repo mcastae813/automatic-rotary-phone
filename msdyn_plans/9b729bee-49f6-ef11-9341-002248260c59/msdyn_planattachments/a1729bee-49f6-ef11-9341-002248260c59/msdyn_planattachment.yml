@@ -1,0 +1,9 @@
+msdyn_planattachment:
+  '@msdyn_planattachmentid': a1729bee-49f6-ef11-9341-002248260c59
+  iscustomizable: 1
+  msdyn_content:
+    '@mimetype': image/png
+    '#text': Screenshot 2025-02-28 215502.png
+  msdyn_name: Screenshot 2025-02-28 215502.png
+  statecode: 0
+  statuscode: 1

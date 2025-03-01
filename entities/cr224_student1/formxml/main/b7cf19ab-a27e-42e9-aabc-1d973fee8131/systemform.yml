@@ -1,0 +1,80 @@
+systemform:
+  formid: '{b7cf19ab-a27e-42e9-aabc-1d973fee8131}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{70d42acf-2cc4-42e1-aed9-2aa4145d7391}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{46485cce-e1c3-4fbe-9596-7c93d11350df}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{9bcb188b-01fa-41ce-8674-07fb3f9da364}'
+                      labels:
+                        label:
+                          '@description': Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr224_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr224_name
+                  - cell:
+                      '@id': '{6657f865-83a8-4903-971a-354f081338fe}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{49e6382c-578f-4fc5-8b44-07aefe4a2341}'
+                      labels:
+                        label:
+                          '@description': Class
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr224_class
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr224_class
+                  - cell:
+                      '@id': '{e0f479cd-8689-4e25-83d7-245b00fe6b01}'
+                      labels:
+                        label:
+                          '@description': Points
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr224_points
+                        '@classid': '{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}'
+                        '@datafieldname': cr224_points
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

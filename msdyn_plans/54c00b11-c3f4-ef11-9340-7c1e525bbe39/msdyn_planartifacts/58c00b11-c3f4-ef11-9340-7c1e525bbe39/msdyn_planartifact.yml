@@ -1,0 +1,17 @@
+msdyn_planartifact:
+  '@msdyn_planartifactid': 58c00b11-c3f4-ef11-9340-7c1e525bbe39
+  iscustomizable: 1
+  msdyn_artifactmetadata:
+    '@mimetype': application/octet-stream
+    '#text': undefined
+  msdyn_artifactmetadataschemaversion: 1.0
+  msdyn_artifactstatus: 419550001
+  msdyn_description: An app for teachers to log, classify, and track student incidents, set reminders, and generate reports.
+  msdyn_name: Teacher Incident Management
+  msdyn_proposal:
+    '@mimetype': application/octet-stream
+    '#text': Teacher Incident Management
+  msdyn_proposalschemaversion: 1.0
+  msdyn_type: PowerAppsCanvasApp
+  statecode: 0
+  statuscode: 1

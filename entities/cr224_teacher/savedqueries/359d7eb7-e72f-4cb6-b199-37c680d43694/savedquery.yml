@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{359d7eb7-e72f-4cb6-b199-37c680d43694}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr224_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr224_teacherid
+        cell:
+        - '@name': cr224_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+        - '@name': cr224_email
+          '@width': 150
+        - '@name': cr224_department
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_teacher
+        attribute:
+        - '@name': cr224_teacherid
+        - '@name': cr224_name
+        - '@name': createdon
+        - '@name': cr224_email
+        - '@name': cr224_department
+        order:
+          '@attribute': cr224_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Teachers
+      '@languagecode': 1033

@@ -1,0 +1,27 @@
+{
+  "name": "Incident Filter App",
+  "description": "An app for teachers to filter incidents by date, type, or student and receive notifications for new incidents.",
+  "typesOfUsers": [
+    "Teacher"
+  ],
+  "tableSchemaNames": [
+    "cr224_Incident"
+  ],
+  "userStories": [
+    {
+      "id": "us09",
+      "rawDescription": "As a Teacher, I need to filter incidents by date, type, or student so that I can quickly find relevant records.",
+      "description": "Filter incidents by date, type, or student so that I can quickly find relevant records.",
+      "priority": "P",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us10",
+      "rawDescription": "As a Teacher, I need to receive notifications for new incidents so that I can address them promptly.",
+      "description": "Receive notifications for new incidents so that I can address them promptly.",
+      "priority": "P",
+      "userType": "Teacher"
+    }
+  ],
+  "version": 1
+}

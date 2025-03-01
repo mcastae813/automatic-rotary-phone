@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{f5046c60-9ea9-45ca-82ba-6dd09b80431b}'
+  layoutxml:
+    grid:
+      '@name': cr224_schooladministrators
+      '@jump': cr224_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': cr224_schooladministrator
+        '@id': cr224_schooladministratorid
+        cell:
+        - '@name': cr224_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_schooladministrator
+        attribute:
+        - '@name': cr224_schooladministratorid
+        - '@name': cr224_name
+        - '@name': createdon
+        order:
+          '@attribute': cr224_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': School Administrator Associated View
+      '@languagecode': 1033

@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{4839e2a4-a200-47b6-9cc2-6d38e3b214f2}'
+  layoutxml:
+    grid:
+      '@name': cr224_studentincidents
+      '@jump': cr224_studentincident1
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr224_studentincident
+        '@id': cr224_studentincidentid
+        cell:
+        - '@name': cr224_studentincident1
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_studentincident
+        attribute:
+        - '@name': cr224_studentincidentid
+        - '@name': cr224_studentincident1
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Student Incident Lookup View
+      '@languagecode': 1033

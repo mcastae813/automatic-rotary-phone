@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 1
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{eef4c329-5cd1-4785-9ab9-17ee7094fd40}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr224_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr224_teacherid
+        cell:
+        - '@name': cr224_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 4
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_teacher
+        attribute:
+        - '@name': cr224_teacherid
+        - '@name': cr224_name
+        - '@name': createdon
+        order:
+          '@attribute': cr224_name
+          '@descending': false
+        filter:
+        - '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+        - '@type': or
+          '@isquickfindfields': 1
+          condition:
+            '@attribute': cr224_name
+            '@operator': like
+            '@value': '{0}'
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Quick Find Active Teachers
+      '@languagecode': 1033

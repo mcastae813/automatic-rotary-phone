@@ -1,0 +1,34 @@
+{
+  "QualifiedValues": [
+    {
+      "Namespace": "Teachers (Forms)",
+      "Kind": "default.cds_cr224_teacher_forms",
+      "Values": {}
+    },
+    {
+      "Namespace": "Students (Forms)",
+      "Kind": "default.cds_cr224_student_forms",
+      "Values": {}
+    },
+    {
+      "Namespace": "Parents (Forms)",
+      "Kind": "default.cds_cr224_parent_forms",
+      "Values": {}
+    },
+    {
+      "Namespace": "Incidents (Forms)",
+      "Kind": "default.cds_cr224_incident_forms",
+      "Values": {}
+    },
+    {
+      "Namespace": "Student Incidents (Forms)",
+      "Kind": "default.cds_cr224_studentincident_forms",
+      "Values": {}
+    },
+    {
+      "Namespace": "Teacher Incidents (Forms)",
+      "Kind": "default.cds_cr224_teacherincident_forms",
+      "Values": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+MissingDependencies:
+  MissingDependency:
+  - Required:
+      '@type': 161
+      '@displayName': autogenProfile-dev_incidentmanagementapp_dad88
+      '@solution': Active
+      '@id': '{1955dc11-4bf6-ef11-9341-002248260c59}'
+    Dependent:
+      '@type': 300
+      '@schemaName': dev_incidentmanagementapp_dad88
+      '@displayName': Incident Management App
+  - Required:
+      '@type': 61
+      '@schemaName': msdyn_/Images/AppModule_Default_Icon.png
+      '@displayName': msdyn_/Images/AppModule_Default_Icon.png
+      '@solution': AppModuleWebResources (2.5)
+      package:
+        '@appName': AppModule Web Resources Package
+        '@version': 2.5
+        '#text': AppModuleWebResources (2.5)
+    Dependent:
+      '@type': 80
+      '@schemaName': dev_BehaviorTrend94627d24
+      '@displayName': Behavior Trend Analysis
+  - Required:
+      '@type': connectionreference
+      '@displayName': new_sharedcommondataserviceforapps_01089
+      '@solution': Active
+      '@id.connectionreferencelogicalname': new_sharedcommondataserviceforapps_01089
+    Dependent:
+      '@type': 29
+      '@displayName': A flow
+      '@id': '{8131387f-61f6-ef11-9341-7c1e52168ba1}'
+  - Required:
+      '@type': SettingDefinition
+      '@displayName': AppChannel
+      '@solution': msdyn_AppFrameworkInfraExtensions (1.0.0.12)
+      '@id.uniquename': AppChannel
+      package:
+        '@appName': PowerAppsAppFramework Package
+        '@version': 1.0.0.16
+        '#text': PowerAppsAppFramework_Anchor (1.0.0.16)
+    Dependent:
+      '@type': AppSetting
+      '@displayName': parentappmoduleid.uniquename=dev_BehaviorTrend94627d24,settingdefinitionid.uniquename=AppChannel
+      '@id.parentappmoduleid.uniquename': dev_BehaviorTrend94627d24
+      '@id.settingdefinitionid.uniquename': AppChannel

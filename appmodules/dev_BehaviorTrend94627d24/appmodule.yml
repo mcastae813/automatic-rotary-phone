@@ -1,0 +1,43 @@
+AppModule:
+  UniqueName: dev_BehaviorTrend94627d24
+  IntroducedVersion: 1.0.0.0
+  WebResourceId: 953b9fac-1e5e-e611-80d6-00155ded156f
+  OptimizedFor: ''
+  statecode: 0
+  statuscode: 1
+  FormFactor: 1
+  ClientType: 4
+  NavigationType: 0
+  AppModuleComponents:
+    AppModuleComponent:
+    - '@type': 1
+      '@schemaName': cr224_incident
+    - '@type': 1
+      '@schemaName': cr224_teacherincident
+    - '@type': 1
+      '@schemaName': cr224_studentincident
+    - '@type': 1
+      '@schemaName': cr224_teacher
+    - '@type': 1
+      '@schemaName': cr224_parent
+    - '@type': 1
+      '@schemaName': cr224_student
+    - '@type': 62
+      '@schemaName': dev_BehaviorTrendbc40bee2
+  AppModuleRoleMaps:
+    Role:
+    - '@id': '{627090ff-40a3-4053-8790-584edc5be201}'
+    - '@id': '{119f245c-3cc8-4b62-b31c-d1a046ced15d}'
+  LocalizedNames:
+    LocalizedName:
+      '@description': Behavior Trend Analysis
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': An app for teachers to identify trends in student behavior, view incident history, and generate reports.
+      '@languagecode': 1033
+  appsettings:
+    appsetting:
+      '@settingdefinitionid.uniquename': AppChannel
+      iscustomizable: 1
+      value: 1

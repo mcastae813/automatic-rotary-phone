@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{d30f09cd-4a2e-413d-9d88-8a74a8c64697}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr224_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr224_schooladministratorid
+        cell:
+        - '@name': cr224_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_schooladministrator
+        attribute:
+        - '@name': cr224_schooladministratorid
+        - '@name': cr224_name
+        - '@name': createdon
+        order:
+          '@attribute': cr224_name
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': School Administrator Advanced Find View
+      '@languagecode': 1033

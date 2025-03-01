@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{3c8d4d97-f9ac-4b7e-8292-e1e0015246ea}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr224_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr224_studentid
+        cell:
+        - '@name': cr224_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_student
+        attribute:
+        - '@name': cr224_studentid
+        - '@name': cr224_name
+        - '@name': createdon
+        order:
+          '@attribute': cr224_name
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Student Advanced Find View
+      '@languagecode': 1033

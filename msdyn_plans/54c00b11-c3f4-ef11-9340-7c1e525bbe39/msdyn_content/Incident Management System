@@ -1,0 +1,1197 @@
+{
+  "personasAndUserStories": [
+    {
+      "user": {
+        "id": "Teacher",
+        "name": "Teacher",
+        "description": "Person responsible for educating students and managing classroom behavior",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQESURBVHgBzVdLixxVFP7uvXWruqu7Mz1JBg0hM0pw4QOMovhAHEXEv6F/wAT8BVm5cOfC3+AugSxUstJNEB8YECcQNDoomRmjM5lOV3U97q2cU49hEroew2QgB07f6nqc7zvnnkeVyEjQQfg2ay2MMfnK/6tHhRC5SilzVUrl/7uIaCPAl5MkyYE7cs3FcRxorVuJ1BKogNM0xWGkjchcAnxqNpsdyOMmYfBerzeXhDxq8DabsuuNR0VCtt1w1CT2CHDCHQTc/L8Oc+VjeN+ch5xudn6uSu5K8iTkk2EYNj8Y3YNduwJvsIBYDnD364s4bv9Ff7yI7MTTiF66ALN5A3q4ALPyDjLtN9rr9/tF/2D0OI5by2370idY/Psq/NEQoUoQ9iIMxgqu61IcXdgNCu1mCGd8AvbMm5itftpoj8uTn3XY+y61Pvv1KwQLEnfHU3gjg74noAlbaNo2baGWyONnRsCNGPL2T632qsYmua22SbL+I4RjMDmdQfUjaEWAQkGSIldZ6IiOXyQibgx1++dGmwzOJEQURVldBOxsgsml8xDr1zBZ0egPI/JcoudqeNTdHO1wLEslApoI0BzAlI5/uIPs1KuYvfcZ5cNgrn3ehsYIhDe/RXrrewR9Gi5uQl7TwAEdZwSYEZBV5UodLhPlSg8OSY/7ENs3oda/q7XP2LKp9IQzQBp7SPuCwDMwPCrwSi2fk8XKvpiMLQOLHImIbqmvhjwHmgj4z74LtfwKhVCS12IPPGO1rCWwKb03KEnQT0/AHDsL89RqMwG0iE3+K6yWoLD7wcsIPEAiKwjQXoilk23mKZEb5nWwdhVm4zfIiKNaAOeroTVXsQ+4jEBKBFIiME0ht65D/XOt1j5jO/xTtw022KU98qF2NdJxWoBKUiq5QrkUqZtB5B7nCaiyImJbFJWAy2zaSEDyK1Sd+M9/APXEa9C7Q4jQJwIaJlVUv5XSPqfkACkSUXgfWdgdB8EfGuHgZaSnX6+1z9iCekBGvQBNEv3+C3a+/AhYHkN71H6p5jWpo2TRAhQbI3BJ74vUUpyNFMHbn0Msv9BoN2/FOYuGbWDxzp4jwwLeXwHMmSUklOFZnpeCokKOcxB5F2IHg0lEzdFpBWfhl9c8B/igbR64K1SSf16He4sG18hHMqJWmnsv4RIbu53BCWLYgYR57i20CXfBvWnYbRzPEK9RRoczyCdXEFy+CG96B8d8MrR4EtM3LlDrDijpAjjnViG8A4xjPtFlJO8Xs7OF8PIX6PkenPc/pM53qvOz1Shm2SPACydjl+l4GHn4DVnuv+B5HprK8lGDP0DgqEnUfRvIeTc+ahJNHyaP56fZYYlUveVQH6fziHT5PGfgqrt2kftRbGDyBaOUrgAAAABJRU5ErkJggg=="
+      },
+      "userStories": [
+        {
+          "id": "us01",
+          "rawDescription": "As a teacher, I need to log student incidents quickly so that I can keep accurate records.",
+          "description": "Log student incidents quickly so that I can keep accurate records.",
+          "priority": "B",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us02",
+          "rawDescription": "As a teacher, I need to classify incidents automatically so that I can save time and ensure consistency.",
+          "description": "Classify incidents automatically so that I can save time and ensure consistency.",
+          "priority": "P",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us03",
+          "rawDescription": "As a teacher, I need to notify parents about incidents immediately so that they are informed promptly.",
+          "description": "Notify parents about incidents immediately so that they are informed promptly.",
+          "priority": "B",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us04",
+          "rawDescription": "As a teacher, I need to track the resolution of incidents so that I can ensure follow-up actions are completed.",
+          "description": "Track the resolution of incidents so that I can ensure follow-up actions are completed.",
+          "priority": "B",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us05",
+          "rawDescription": "As a teacher, I need to identify patterns in student behavior so that I can address underlying issues.",
+          "description": "Identify patterns in student behavior so that I can address underlying issues.",
+          "priority": "P",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us06",
+          "rawDescription": "As a teacher, I need to generate reports on incidents so that I can share them with school administrators.",
+          "description": "Generate reports on incidents so that I can share them with school administrators.",
+          "priority": "P",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us07",
+          "rawDescription": "As a teacher, I need to access incident records from any device so that I can update information on the go.",
+          "description": "Access incident records from any device so that I can update information on the go.",
+          "priority": "P",
+          "userType": "Teacher"
+        },
+        {
+          "id": "us08",
+          "rawDescription": "As a teacher, I need to set reminders for follow-up actions so that I do not miss any important steps.",
+          "description": "Set reminders for follow-up actions so that I do not miss any important steps.",
+          "priority": "P",
+          "userType": "Teacher"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Parent",
+        "name": "Parent",
+        "description": "Guardian of the student who needs to be informed about incidents",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJlSURBVHgBzZfPa9RAFMe/M0k2ad2q/4KoiFAKBUWQVrQXQYUiePDozav/kZ6k4lm86s2bsCdFz/YmFLtskklmfG/c0d2SNjOzbul3mWwmmcz7zK83b4QhwUNcTGuNtm3tP+fdp0IIm6SUNiVJYvM+En0A/FopZQ17slqlaYosy3pBjgVwhpumwSLqA+kE4EdlWQa1+CSx8aIoOiHkso331Sl9Cy4LQvYVWDbEXwCecFHGddgkdZN7DoAfxsx205RoPryAOPge9B3bco21ALNEQfqyhzX8hBThPedsytjW68N9DL69hZB+Hu+onGOT7FZjJEevkBWDjoXsJzbOEJIvoaq+vsfK/ieqhVrP/JELhxsf3ANGTZCP9siFJjSbCEAtBpCGLj39+Q2G5S9y8tOxTynVE8SIbYvxeOxNoA9+IHv9HPnq4M8DHv+Eb6gbNI2pKaA2n0GvP/St0vL7E398iZx+KCkjZtPA3shzl2Gu3gupkjqSdiifYWgnh9DDdVTXN2hX08hGtARF9Q/CZFBbT2DyVfiKbXsDJCtDJDu7cGtGjt4hracAdGkv3UFz7QZCZAE4hIrxBUaR5UpwLURzAfXOU4TKhnAcv8XIApSUapp4tx7DnL+IUE1jSOkdQM4B1HSpJczaFajt+4gRN16y8ZheENz99RDq7i43BaHiWNFG0pzhoDFUTZWgvfkAzeYGYuRsWj9gZyMRheyK7dYj1Nu3ESPXemvbRcX8V1UVYndHXx2NkOXsizzP7cw8LeNzAMuGOO5sILsK/m+Ikw4mZ/NotiiI8y0LHU67QHyO59a7BXjX3wTxcdt9jE9VAAAAAElFTkSuQmCC"
+      },
+      "userStories": [
+        {
+          "id": "us09",
+          "rawDescription": "As a parent, I need to receive notifications about my child's incidents so that I am aware of their behavior.",
+          "description": "Receive notifications about my child's incidents so that I am aware of their behavior.",
+          "priority": "B",
+          "userType": "Parent"
+        },
+        {
+          "id": "us10",
+          "rawDescription": "As a parent, I need to view details of incidents involving my child so that I can understand the situation.",
+          "description": "View details of incidents involving my child so that I can understand the situation.",
+          "priority": "P",
+          "userType": "Parent"
+        },
+        {
+          "id": "us11",
+          "rawDescription": "As a parent, I need to communicate with the teacher about incidents so that I can discuss and resolve issues.",
+          "description": "Communicate with the teacher about incidents so that I can discuss and resolve issues.",
+          "priority": "P",
+          "userType": "Parent"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "School Administrator",
+        "name": "School Administrator",
+        "description": "Person responsible for overseeing school operations and supporting teachers",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAN1SURBVHgBzVdLaxNRFP7unVcSkqaxz/ShtdKVitC1C91I/QOCO7Eo1f+hWBQKhYKuC1L34lJc6EqECi4Epas+1NrYV14zmRnPuUlqK8nMxDTFD07CzNx7z3fuPa8rfAIigId5ngfXddU/P9enCiGUSCmVaJqmnqNAhBHgz47jKMURuSroug7DMEKJNCVQV1ypVNAOwog0JMCvSqVSSxYHgZXHYrGGJGSnlYetKaMO7BQJGTag0yQOCLDDdVL5YRKs6wgBftmut7cC1lU3VhE4zOikUNcpT9r6OuqJTee0GgUPXm9g8eMWhEZxrVPKtQyMTvTAHs3ghx+jc6TNtGmg42Mq6eDxuBu4HitnEpJ/wvB8eRtLn/ZgUkYzLRPxuIVMbxfODidwMUWZTgc8KeDpJJrAq10Di9+10HXZeBm2Axt7Lhbe71AmM0ixqcRMxDE2Ekfc0qCTJedjPudUPlCA9ZLMrmlYLSOcQFDobRc93H+5CRoGnSqclFzlNPRkLPSndQiPt93FAI0Yli6vSLN8JT4Rmv6sYT/AvZQPBBFY+rCN1bUCBC0ohF8tu6aJ8XMx6AUDKFNulywuLtAx5NaLNJJIub6STdfDi4TA9ITZnAACcHMyjTdE4su6zVtFwnXfgzPgItlHirUaAU0ib1eQXNkny8kP/Gq/MJwSuHEmE6SCpgfU63RCw/ytUYx0W+QsdATk6bzTuY0SRMmvSpmIkefnNguKpPBcdiyMpYD5qTRSZvP1VRMT1jD0pw08nSESp0zaXCIhJH5+K0NU2INRFTqknbwNIbkrEhjqknhyvRsDqeBIqHVREmHIZgws3BvFkCJBW+x42N2pVB2eFsmXHDh8GnQU2S4Nc6R8MBkehqqF4/4tCgYzOubuZpGtkfi1ZSufYItzBQdSp+hIkuXXkqRcIgpqPaSM3ECO9Bp4eLsfKbIul+O0R15M83ccl3KCxKOrCWST0QxisPHKB6LuAmN80MTcTD9M08d+3kW+4kI3BGavxDDWHX0d7hVVWPtVoFgsohUsr5Tx7K0Lrc/EnUng0oDe0vx4PP6HAL+wbbvlqvjuK9V1CrPLp6NbzmDrTbOanA4I8F+5XEbU6viv+LtDloc/WJaFKGF5XMqPEOg0iWZ3A9lo4HGTCLqY/J9Xs3aJ1HNLW5fTRkSiXM9Vdmshu/4G/UrWrElD7LcAAAAASUVORK5CYII="
+      },
+      "userStories": [
+        {
+          "id": "us12",
+          "rawDescription": "As a school administrator, I need to monitor incident reports so that I can support teachers in managing student behavior.",
+          "description": "Monitor incident reports so that I can support teachers in managing student behavior.",
+          "priority": "P",
+          "userType": "School Administrator"
+        },
+        {
+          "id": "us13",
+          "rawDescription": "As a school administrator, I need to analyze trends in incidents so that I can implement school-wide improvements.",
+          "description": "Analyze trends in incidents so that I can implement school-wide improvements.",
+          "priority": "P",
+          "userType": "School Administrator"
+        },
+        {
+          "id": "us14",
+          "rawDescription": "As a school administrator, I need to ensure data privacy and security so that student information is protected.",
+          "description": "Ensure data privacy and security so that student information is protected.",
+          "priority": "B",
+          "userType": "School Administrator"
+        },
+        {
+          "id": "us15",
+          "rawDescription": "As a school administrator, I need to provide training to teachers on using the incident management system so that they can use it effectively.",
+          "description": "Provide training to teachers on using the incident management system so that they can use it effectively.",
+          "priority": "P",
+          "userType": "School Administrator"
+        }
+      ]
+    }
+  ],
+  "entitiesAndRelationships": {
+    "entities": [
+      {
+        "entityName": "Student",
+        "description": "Stores information about students including their points.",
+        "columns": [
+          "Student ID",
+          "Name",
+          "Class",
+          "Points"
+        ],
+        "userStories": [
+          "us01",
+          "us05"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      },
+      {
+        "entityName": "Incident",
+        "description": "Stores details of incidents involving students.",
+        "columns": [
+          "Incident ID",
+          "Student ID",
+          "Teacher ID",
+          "Date",
+          "Description",
+          "Category",
+          "Resolution Status"
+        ],
+        "userStories": [
+          "us01",
+          "us02",
+          "us03",
+          "us04",
+          "us05",
+          "us06",
+          "us07",
+          "us08",
+          "us09",
+          "us10",
+          "us11",
+          "us12",
+          "us13"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      },
+      {
+        "entityName": "Teacher",
+        "description": "Stores information about teachers who log and manage incidents.",
+        "columns": [
+          "Teacher ID",
+          "Name",
+          "Email"
+        ],
+        "userStories": [
+          "us01",
+          "us11",
+          "us15"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      },
+      {
+        "entityName": "Parent",
+        "description": "Stores information about parents who need to be notified about incidents.",
+        "columns": [
+          "Parent ID",
+          "Name",
+          "Email",
+          "Student ID"
+        ],
+        "userStories": [
+          "us03",
+          "us09",
+          "us10",
+          "us11"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      },
+      {
+        "entityName": "School Administrator",
+        "description": "Stores information about school administrators who oversee the incident management system.",
+        "columns": [
+          "Admin ID",
+          "Name",
+          "Email"
+        ],
+        "userStories": [
+          "us12",
+          "us13",
+          "us14",
+          "us15"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Incident",
+        "relationship": "ManyToOne",
+        "to": "Student"
+      },
+      {
+        "from": "Incident",
+        "relationship": "ManyToOne",
+        "to": "Teacher"
+      },
+      {
+        "from": "Parent",
+        "relationship": "ManyToOne",
+        "to": "Student"
+      }
+    ]
+  },
+  "entitiesCollection": [
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Name",
+            "MetadataId": "82306e82-75f2-4150-9db9-c824b709cd1a",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Class",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Class",
+            "MetadataId": "7adea12e-f0d3-4224-935a-a56f748c2e48",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+            "Format": "None",
+            "AttributeType": "Integer",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Points",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Points",
+            "MetadataId": "741b79cb-ecf1-4d80-8748-2bcd363df6a3",
+            "AttributeTypeName": {
+              "Value": "IntegerType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of student information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Students",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Student",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "OwnershipType": "UserOwned",
+        "SchemaName": "cr224_Student1",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "a5192f93-c3dc-409f-bdfc-254c9592e7f4"
+      },
+      "SampleData": [
+        {
+          "cr224_name": "Alice",
+          "cr224_class": "10A",
+          "cr224_points": 85,
+          "cr224_student1id": "0f50a656-1c8f-4a60-afdd-63c5d301ffea"
+        },
+        {
+          "cr224_name": "Bob",
+          "cr224_class": "10B",
+          "cr224_points": 90,
+          "cr224_student1id": "d9c8ea63-c927-4765-a47e-e77625ad3adb"
+        },
+        {
+          "cr224_name": "Charlie",
+          "cr224_class": "10A",
+          "cr224_points": 78,
+          "cr224_student1id": "842b031e-4fb5-489d-82e3-f120824be915"
+        },
+        {
+          "cr224_name": "David",
+          "cr224_class": "10C",
+          "cr224_points": 88,
+          "cr224_student1id": "a46a476f-73d0-41db-b2c9-e60a505a1b52"
+        },
+        {
+          "cr224_name": "Eva",
+          "cr224_class": "10B",
+          "cr224_points": 92,
+          "cr224_student1id": "ac473ba3-a572-44fe-b524-c55afb0940f5"
+        }
+      ]
+    },
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Incident",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Incident1",
+            "MetadataId": "88a82105-90d4-4aa2-aeba-7e29347af7d9",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+            "Targets": [
+              "cr224_student1"
+            ],
+            "Format": "None",
+            "AttributeType": "Lookup",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Student",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_StudentID",
+            "MetadataId": "640a43a6-7e7b-4636-b460-2a85dfe21e47",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Teacher ID",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_TeacherID",
+            "MetadataId": "fecaf750-1cd0-4720-af65-e41e0829e3d5",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+            "Format": "DateOnly",
+            "AttributeType": "DateTime",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Date",
+            "MetadataId": "8655c17b-8d94-445f-a469-42c0e3bf88b3",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "TextArea",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Description",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Description",
+            "MetadataId": "fac3636d-78d8-427b-9c47-64919fb48476",
+            "FormatName": {
+              "Value": "TextArea"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+            "DefaultFormValue": 182990000,
+            "OptionSet": {
+              "Options": [
+                {
+                  "Value": 182990000,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Behavior",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                },
+                {
+                  "Value": 182990001,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Academic",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                },
+                {
+                  "Value": 182990002,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Attendance",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                }
+              ],
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Category",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "IsGlobal": false,
+              "OptionSetType": "Picklist",
+              "Name": "cr224_incident1_cr224_category"
+            },
+            "AttributeType": "Picklist",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Category",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Category",
+            "MetadataId": "650aebd1-c2ae-43d1-bcd6-e1f3a97dc7cc",
+            "AttributeTypeName": {
+              "Value": "PicklistType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+            "DefaultValue": false,
+            "OptionSet": {
+              "TrueOption": {
+                "Value": 1,
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "True",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "IsHidden": false
+              },
+              "FalseOption": {
+                "Value": 0,
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "False",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "IsHidden": false
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Resolution Status",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "IsGlobal": false,
+              "OptionSetType": "Boolean",
+              "Name": "cr224_incident1_cr224_resolutionstatus"
+            },
+            "AttributeType": "Boolean",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Resolution Status",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_ResolutionStatus",
+            "MetadataId": "a3e2bb6d-18e8-4488-a2ed-4cb6e45d7587",
+            "AttributeTypeName": {
+              "Value": "BooleanType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of incidents involving students",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Incidents",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Incident",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "ManyToOneRelationships": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata",
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade"
+            },
+            "ReferencedAttribute": "cr224_studentid",
+            "ReferencedEntity": "cr224_student1",
+            "ReferencingAttribute": "cr224_studentid",
+            "ReferencingEntity": "cr224_incident1",
+            "SchemaName": "cr224_incident1_cr224_studentid_cr224_student1",
+            "MetadataId": "f9c52ac0-4f37-4334-b28b-0cd80e18cd3f",
+            "RelationshipType": "OneToManyRelationship"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "SchemaName": "cr224_Incident1",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "6730a0b7-2967-408b-a349-18c81ed3d034"
+      },
+      "SampleData": [
+        {
+          "cr224_incident1": "Incident 1",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(0f50a656-1c8f-4a60-afdd-63c5d301ffea)",
+          "cr224_teacherid": "T001",
+          "cr224_date": "2023-01-15T00:00:00",
+          "cr224_description": "Disruption in class",
+          "cr224_category": 182990000,
+          "cr224_resolutionstatus": false,
+          "cr224_incident1id": "9da66ad7-de05-43bc-96f0-d6bfa5b28246"
+        },
+        {
+          "cr224_incident1": "Incident 2",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(d9c8ea63-c927-4765-a47e-e77625ad3adb)",
+          "cr224_teacherid": "T002",
+          "cr224_date": "2023-01-16T00:00:00",
+          "cr224_description": "Late submission",
+          "cr224_category": 182990001,
+          "cr224_resolutionstatus": true,
+          "cr224_incident1id": "e0951691-1802-4a94-8797-8fb084bfea87"
+        },
+        {
+          "cr224_incident1": "Incident 3",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(842b031e-4fb5-489d-82e3-f120824be915)",
+          "cr224_teacherid": "T001",
+          "cr224_date": "2023-01-17T00:00:00",
+          "cr224_description": "Absent without notice",
+          "cr224_category": 182990002,
+          "cr224_resolutionstatus": false,
+          "cr224_incident1id": "d275ac8e-b51b-4130-814d-e20f287d7359"
+        },
+        {
+          "cr224_incident1": "Incident 4",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(a46a476f-73d0-41db-b2c9-e60a505a1b52)",
+          "cr224_teacherid": "T003",
+          "cr224_date": "2023-01-18T00:00:00",
+          "cr224_description": "Fighting",
+          "cr224_category": 182990000,
+          "cr224_resolutionstatus": true,
+          "cr224_incident1id": "e7482681-83b2-4998-82d3-d030965dd89f"
+        },
+        {
+          "cr224_incident1": "Incident 5",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(ac473ba3-a572-44fe-b524-c55afb0940f5)",
+          "cr224_teacherid": "T002",
+          "cr224_date": "2023-01-19T00:00:00",
+          "cr224_description": "Cheating on exam",
+          "cr224_category": 182990001,
+          "cr224_resolutionstatus": true,
+          "cr224_incident1id": "a5917998-f470-43c3-82a6-1bca3b414bdd"
+        }
+      ]
+    },
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Name",
+            "MetadataId": "12204b16-34c8-4443-94c6-9dcc7499d2a3",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Email",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Email",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Email",
+            "MetadataId": "cc0a6f96-f482-4158-a72a-bf4f3c391440",
+            "FormatName": {
+              "Value": "Email"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of teacher information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Teachers",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Teacher",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "OwnershipType": "UserOwned",
+        "SchemaName": "cr224_Teacher1",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "bb18f1a3-301e-43fa-b59b-52681431caab"
+      },
+      "SampleData": [
+        {
+          "cr224_name": "Mr. Smith",
+          "cr224_email": "smith@example.com",
+          "cr224_teacher1id": "5264329e-f829-4292-9cbb-fd3046f0af54"
+        },
+        {
+          "cr224_name": "Ms. Johnson",
+          "cr224_email": "johnson@example.com",
+          "cr224_teacher1id": "f32111b5-c048-4cde-91da-69ab08d09f0b"
+        },
+        {
+          "cr224_name": "Mrs. Brown",
+          "cr224_email": "brown@example.com",
+          "cr224_teacher1id": "0a2c45ea-591f-4ce2-b5f9-38eed89f55ed"
+        },
+        {
+          "cr224_name": "Mr. White",
+          "cr224_email": "white@example.com",
+          "cr224_teacher1id": "843c8a38-bb47-45ec-ad5b-207311533a45"
+        },
+        {
+          "cr224_name": "Ms. Green",
+          "cr224_email": "green@example.com",
+          "cr224_teacher1id": "51ad85b9-5261-4636-bc20-1f230ef7cc42"
+        }
+      ]
+    },
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Name",
+            "MetadataId": "380851cf-2070-401e-83fe-0f81062bde30",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Email",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Email",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Email",
+            "MetadataId": "eae9872e-a158-4d8a-a0ee-996af427ee4b",
+            "FormatName": {
+              "Value": "Email"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+            "Targets": [
+              "cr224_student1"
+            ],
+            "Format": "None",
+            "AttributeType": "Lookup",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Student",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_StudentID",
+            "MetadataId": "9b730a1e-f78f-4556-8906-df2e910cb40a",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of parent information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Parents",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Parent",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "ManyToOneRelationships": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata",
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade"
+            },
+            "ReferencedAttribute": "cr224_studentid",
+            "ReferencedEntity": "cr224_student1",
+            "ReferencingAttribute": "cr224_studentid",
+            "ReferencingEntity": "cr224_parent1",
+            "SchemaName": "cr224_parent1_cr224_studentid_cr224_student1",
+            "MetadataId": "333780b0-55ca-4f03-a758-1cddc419a476",
+            "RelationshipType": "OneToManyRelationship"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "SchemaName": "cr224_Parent1",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "b46c6f38-001e-4ee5-ad9e-dfe8700d0c16"
+      },
+      "SampleData": [
+        {
+          "cr224_name": "Alice's Mom",
+          "cr224_email": "alice_mom@example.com",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(0f50a656-1c8f-4a60-afdd-63c5d301ffea)",
+          "cr224_parent1id": "effd5835-750a-4436-8fe3-d188e03c3ce1"
+        },
+        {
+          "cr224_name": "Bob's Dad",
+          "cr224_email": "bob_dad@example.com",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(d9c8ea63-c927-4765-a47e-e77625ad3adb)",
+          "cr224_parent1id": "a5f887c9-c4ab-499a-999a-4d6d1f747bdf"
+        },
+        {
+          "cr224_name": "Charlie's Mom",
+          "cr224_email": "charlie_mom@example.com",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(842b031e-4fb5-489d-82e3-f120824be915)",
+          "cr224_parent1id": "8a9ab3ac-42c2-406b-8a56-8c8434eb08af"
+        },
+        {
+          "cr224_name": "David's Dad",
+          "cr224_email": "david_dad@example.com",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(a46a476f-73d0-41db-b2c9-e60a505a1b52)",
+          "cr224_parent1id": "1ea40c26-c7f6-4f88-8c7f-fc9a26cf4c8b"
+        },
+        {
+          "cr224_name": "Eva's Mom",
+          "cr224_email": "eva_mom@example.com",
+          "cr224_StudentID@odata.bind": "/cr224_student1s(ac473ba3-a572-44fe-b524-c55afb0940f5)",
+          "cr224_parent1id": "13875009-2738-4333-b544-b410f583958a"
+        }
+      ]
+    },
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Name",
+            "MetadataId": "ad7f4361-f0fc-45a4-8cc5-3eb163d5a581",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Email",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Email",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "cr224_Email",
+            "MetadataId": "e61bef24-6f52-42cb-9fd8-3675243d6b25",
+            "FormatName": {
+              "Value": "Email"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of school administrator information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "School Administrators",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "School Administrator",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "OwnershipType": "UserOwned",
+        "SchemaName": "cr224_SchoolAdministrator",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "c67117af-10fb-4411-b601-dd0047abb5da"
+      },
+      "SampleData": [
+        {
+          "cr224_schooladministratorid": "fa1c122f-7592-4c2a-8fd6-43f90356d69d",
+          "cr224_name": "Admin One",
+          "cr224_email": "admin1@example.com"
+        },
+        {
+          "cr224_schooladministratorid": "10fca0c9-1142-4e0a-ba32-735f85db3bf5",
+          "cr224_name": "Admin Two",
+          "cr224_email": "admin2@example.com"
+        },
+        {
+          "cr224_schooladministratorid": "b2451969-4344-4d01-a03d-b58e8ea76eaa",
+          "cr224_name": "Admin Three",
+          "cr224_email": "admin3@example.com"
+        },
+        {
+          "cr224_schooladministratorid": "3b26d3b1-7351-4566-a78b-90efed21470c",
+          "cr224_name": "Admin Four",
+          "cr224_email": "admin4@example.com"
+        },
+        {
+          "cr224_schooladministratorid": "f0ebde20-511d-4979-bb71-fc780c099da8",
+          "cr224_name": "Admin Five",
+          "cr224_email": "admin5@example.com"
+        }
+      ]
+    }
+  ],
+  "artifactIds": [
+    "58c00b11-c3f4-ef11-9340-7c1e525bbe39",
+    "558d6017-c9f4-ef11-9340-7c1e525bbe39",
+    "5b8d6017-c9f4-ef11-9340-7c1e525bbe39",
+    "5cc00b11-c3f4-ef11-9340-7c1e525bbe39",
+    "752b2a17-c3f4-ef11-9340-7c1e525bbe39"
+  ],
+  "solutionUniqueName": "ClassroomGuardian"
+}

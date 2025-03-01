@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{316ae455-3496-4f20-babd-fc8c67d4ed7c}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr224_studentincident1
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr224_studentincidentid
+        cell:
+        - '@name': cr224_studentincident1
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+        - '@name': cr224_incidentid
+          '@width': 150
+        - '@name': cr224_studentid
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr224_studentincident
+        attribute:
+        - '@name': cr224_studentincidentid
+        - '@name': cr224_studentincident1
+        - '@name': createdon
+        - '@name': cr224_incidentid
+        - '@name': cr224_studentid
+        order:
+          '@attribute': cr224_studentincident1
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Student Incidents
+      '@languagecode': 1033

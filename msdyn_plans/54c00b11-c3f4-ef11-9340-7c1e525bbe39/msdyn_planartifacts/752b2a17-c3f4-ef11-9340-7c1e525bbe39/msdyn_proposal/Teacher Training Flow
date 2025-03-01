@@ -1,0 +1,21 @@
+{
+  "name": "Teacher Training Flow",
+  "description": "A flow to provide training materials and reminders to teachers on using the incident management system.",
+  "typesOfUsers": [
+    "School Administrator"
+  ],
+  "tableSchemaNames": [
+    "cr224_Teacher1",
+    "cr224_SchoolAdministrator"
+  ],
+  "userStories": [
+    {
+      "id": "us15",
+      "rawDescription": "As a school administrator, I need to provide training to teachers on using the incident management system so that they can use it effectively.",
+      "description": "Provide training to teachers on using the incident management system so that they can use it effectively.",
+      "priority": "P",
+      "userType": "School Administrator"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,109 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "new_sharedcommondataserviceforapps_01089"
+        },
+        "runtimeSource": "embedded"
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "subscriptionRequest/message": 7,
+              "subscriptionRequest/entityname": "cr224_incident",
+              "subscriptionRequest/scope": 4
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          },
+          "conditions": [
+            {
+              "expression": "@not(equals(triggerOutputs()?['body/_modifiedby_value'], '269592a8-5ef6-ef11-9341-7c1e52168ba1'))"
+            }
+          ],
+          "metadata": {
+            "operationMetadataId": "0dbebc85-34de-4cec-8d6d-d2f49cc4ad81"
+          }
+        }
+      },
+      "actions": {
+        "Update_a_row": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "cr224_incidents",
+              "recordId": "@triggerOutputs()?['body/cr224_incidentid']",
+              "item/cr224_incident1": "@triggerOutputs()?['body/cr224_incident1']",
+              "item/cr224_aiinsight": "AI Insight🌟✨:\n\n@{outputs('Create_text_with_GPT_using_a_prompt')?['body/responsev2/predictionOutput/text']}\n\n"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "UpdateOnlyRecord",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          },
+          "runAfter": {
+            "Create_text_with_GPT_using_a_prompt": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "5604779a-5f3d-4e7e-b0d3-42ec7258c2d5"
+          }
+        },
+        "Create_text_with_GPT_using_a_prompt": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "recordId": "99e28e76-e618-4abc-ae8d-f8c8a1cee483",
+              "item/requestv2/text": "@triggerOutputs()?['body/cr224_description']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "aibuilderpredict_customprompt",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          },
+          "runAfter": {},
+          "metadata": {
+            "flowSystemMetadata": {
+              "portalOperationId": "aibuilderpredict_customprompt",
+              "portalOperationGroup": "aibuilder",
+              "portalOperationApiDisplayNameOverride": "AI Builder",
+              "portalOperationIconOverride": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/aiBuilderNew.51dbdb6b.png",
+              "portalOperationBrandColorOverride": "#0A76C4",
+              "portalOperationApiTierOverride": "Standard"
+            },
+            "operationMetadataId": "2647e71b-66ed-4694-948b-6df1a6587d8a"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

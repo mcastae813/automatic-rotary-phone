@@ -1,0 +1,41 @@
+AppModuleSiteMap:
+  SiteMapUniqueName: dev_IncidentFbe6b5177
+  EnableCollapsibleGroups: False
+  ShowHome: True
+  ShowPinned: True
+  ShowRecents: True
+  SiteMap:
+    '@IntroducedVersion': 7.0.0.0
+    Area:
+      '@Id': area_aa6eefbb
+      '@ResourceId': SitemapDesigner.NewTitle
+      '@DescriptionResourceId': SitemapDesigner.NewTitle
+      '@ShowGroups': true
+      '@IntroducedVersion': 7.0.0.0
+      Titles:
+        Title:
+          '@LCID': 1033
+          '@Title': Area1
+      Group:
+        '@Id': group_d285e684
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Group1
+        SubArea:
+          '@Id': subarea_b6dc3bc9
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr224_incident
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+  LocalizedNames:
+    LocalizedName:
+      '@description': Incident Filter App
+      '@languagecode': 1033

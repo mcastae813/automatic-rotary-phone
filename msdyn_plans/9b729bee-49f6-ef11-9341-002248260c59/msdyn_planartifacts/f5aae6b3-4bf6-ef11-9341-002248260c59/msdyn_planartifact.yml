@@ -1,0 +1,17 @@
+msdyn_planartifact:
+  '@msdyn_planartifactid': f5aae6b3-4bf6-ef11-9341-002248260c59
+  iscustomizable: 1
+  msdyn_artifactmetadata:
+    '@mimetype': application/octet-stream
+    '#text': Behavior Trend Analysis
+  msdyn_artifactmetadataschemaversion: 1.0
+  msdyn_artifactstatus: 419550001
+  msdyn_description: An app for teachers to identify trends in student behavior, view incident history, and generate reports.
+  msdyn_name: Behavior Trend Analysis
+  msdyn_proposal:
+    '@mimetype': application/octet-stream
+    '#text': Behavior Trend Analysis
+  msdyn_proposalschemaversion: 1.0
+  msdyn_type: PowerAppsModelApp
+  statecode: 0
+  statuscode: 1

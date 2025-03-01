@@ -1,0 +1,35 @@
+{
+  "name": "Parent Notification Flow",
+  "description": "A flow to notify parents about their child's incidents and allow them to view details.",
+  "typesOfUsers": [
+    "Parent"
+  ],
+  "tableSchemaNames": [
+    "cr224_Incident1",
+    "cr224_Parent1"
+  ],
+  "userStories": [
+    {
+      "id": "us03",
+      "rawDescription": "As a teacher, I need to notify parents about incidents immediately so that they are informed promptly.",
+      "description": "Notify parents about incidents immediately so that they are informed promptly.",
+      "priority": "B",
+      "userType": "Teacher"
+    },
+    {
+      "id": "us09",
+      "rawDescription": "As a parent, I need to receive notifications about my child's incidents so that I am aware of their behavior.",
+      "description": "Receive notifications about my child's incidents so that I am aware of their behavior.",
+      "priority": "B",
+      "userType": "Parent"
+    },
+    {
+      "id": "us10",
+      "rawDescription": "As a parent, I need to view details of incidents involving my child so that I can understand the situation.",
+      "description": "View details of incidents involving my child so that I can understand the situation.",
+      "priority": "P",
+      "userType": "Parent"
+    }
+  ],
+  "version": 1
+}
